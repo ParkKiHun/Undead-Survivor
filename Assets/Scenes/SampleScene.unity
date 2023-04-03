@@ -4587,7 +4587,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 8.736111
+  orthographic size: 8.652778
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4846,6 +4846,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bdce77df46b3434e84617228e12987c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameTime: 0
+  maxHameTime: 20
   pool: {fileID: 1779349530}
   player: {fileID: 1642284277}
 --- !u!4 &648444665
@@ -14073,6 +14075,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: []
+  spawnDatas:
+  - spriteType: 0
+    spawnTime: 0.7
+    health: -12
+    speed: 1.5
+  - spriteType: 1
+    spawnTime: 0.2
+    health: 15
+    speed: 2.4
 --- !u!1 &1779349529
 GameObject:
   m_ObjectHideFlags: 0
